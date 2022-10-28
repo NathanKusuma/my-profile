@@ -1411,3 +1411,12 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+.note a{
+  color: #f3a200;
+  text-decoration: none;
+  
+}
+.note a:hover{
+  color: rgb(1, 105, 240);
+}

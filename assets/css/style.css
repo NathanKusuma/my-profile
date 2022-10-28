@@ -320,6 +320,12 @@ h6 {
   background-size: cover;
   position: relative;
 }
+@media(max-width:500px ){
+  #hero{
+    background: url("../img/fotoku/mobile-background.jpeg") center;
+    text-align: center;
+  }
+}
 
 #hero:before {
   content: "";

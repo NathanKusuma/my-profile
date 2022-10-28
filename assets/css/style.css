@@ -73,6 +73,12 @@ h6 {
   transition: all 0.5s;
   height: 80px;
   background: rgba(25, 28, 31, 0.8);
+  justify-content:center
+}
+@media(max-width:991px) {
+  #header{
+    justify-content: end;
+  }
 }
 
 #header.header-transparent {
@@ -547,6 +553,7 @@ section {
   text-transform: uppercase;
 }
 
+
 .about .content ul {
   list-style: none;
   padding: 0;
@@ -617,6 +624,7 @@ section {
 }
 
 .about .image {
+  margin-top: 2rem;
   background: url("../img/fotoku/about.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
@@ -1313,7 +1321,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url("../img/fotoku/footer2.png") top center no-repeat;
+  background: #5d6a75;
   background-size: cover;
   color: #fff;
   font-size: 14px;

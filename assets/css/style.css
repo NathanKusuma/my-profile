@@ -625,7 +625,7 @@ section {
 
 .about .image {
   margin-top: 2rem;
-  background: url("../img/fotoku/about.jpg") center center no-repeat;
+  background: url("../img/fotoku/about-me.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
